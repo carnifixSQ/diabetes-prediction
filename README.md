@@ -1,6 +1,6 @@
 # diabetes-prediction
 
-A project to predict diabetes based on a dataset Pima Indians Diabetes.
+A project to predict diabetes based on a dataset Pima Indians Diabetes. Data science skills training.
 
 ## Steps
 * [ ] Data loading and initial analysis
