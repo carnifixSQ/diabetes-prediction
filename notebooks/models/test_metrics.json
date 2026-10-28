@@ -1,0 +1,36 @@
+{
+  "best_model": "RandomForest",
+  "threshold": 0.3528571428571428,
+  "test_metrics": {
+    "threshold": 0.3528571428571428,
+    "accuracy": 0.7142857142857143,
+    "precision": 0.5625,
+    "recall": 0.8333333333333334,
+    "f1": 0.6716417910447762,
+    "roc_auc": 0.820925925925926
+  },
+  "confusion_matrix": [
+    [
+      65,
+      35
+    ],
+    [
+      9,
+      45
+    ]
+  ],
+  "target_names": [
+    "No Diabetes",
+    "Diabetes"
+  ],
+  "feature_names": [
+    "Pregnancies",
+    "Glucose",
+    "BloodPressure",
+    "SkinThickness",
+    "Insulin",
+    "BMI",
+    "DiabetesPedigreeFunction",
+    "Age"
+  ]
+}
