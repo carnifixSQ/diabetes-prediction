@@ -1,28 +1,17 @@
 {
-  "best_model": "RandomForest",
-  "threshold": 0.3528571428571428,
+  "best_model": "LogReg",
+  "threshold": 0.2245128787513034,
+  "target_recall": 0.85,
   "test_metrics": {
-    "threshold": 0.3528571428571428,
-    "accuracy": 0.7142857142857143,
-    "precision": 0.5625,
-    "recall": 0.8333333333333334,
-    "f1": 0.6716417910447762,
-    "roc_auc": 0.820925925925926
+    "roc_auc": 0.8198148148148149,
+    "recall": 0.8888888888888888,
+    "specificity": 0.63,
+    "precision": 0.5647058823529412,
+    "TP": 48,
+    "FN": 6,
+    "FP": 37,
+    "TN": 63
   },
-  "confusion_matrix": [
-    [
-      65,
-      35
-    ],
-    [
-      9,
-      45
-    ]
-  ],
-  "target_names": [
-    "No Diabetes",
-    "Diabetes"
-  ],
   "feature_names": [
     "Pregnancies",
     "Glucose",

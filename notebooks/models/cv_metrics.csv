@@ -1,0 +1,5 @@
+model,roc_auc,roc_auc_std,pr_auc
+LogReg,0.8419,0.0069,0.7232
+RandomForest,0.836,0.0031,0.7099
+HistGB,0.827,0.0056,0.7045
+Ensemble,0.8421,0.0039,0.719
